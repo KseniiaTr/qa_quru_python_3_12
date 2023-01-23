@@ -15,15 +15,3 @@
     "replyTo": ""
   }
 }
-
-
-"base": {
-    "logo": "logo.png",
-    "project": "some project",
-    "environment": "some env",
-    "comment": "some comment",
-    "reportLink": "",
-    "language": "en",
-    "allureFolder": "build/allure-report/",
-    "enableChart": true
-  }
