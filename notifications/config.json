@@ -1,0 +1,29 @@
+{
+  "base": {
+    "logo": "",
+    "project": "some project",
+    "environment": "some env",
+    "comment": "some comment",
+    "reportLink": "",
+    "language": "en",
+    "allureFolder": "allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "5910046276:AAGhTtnB04orq0ZnGVEq4GKo2pKI5BkbMH0",
+    "chat": "-1001816518167",
+    "replyTo": ""
+  }
+}
+
+
+"base": {
+    "logo": "logo.png",
+    "project": "some project",
+    "environment": "some env",
+    "comment": "some comment",
+    "reportLink": "",
+    "language": "en",
+    "allureFolder": "build/allure-report/",
+    "enableChart": true
+  }
