@@ -7,8 +7,12 @@
 /.allure-results
 /.env
 allure-results
+/.allure-report
+allure-report
 
 
 
 
 
+
+/notifications/commands.txt
