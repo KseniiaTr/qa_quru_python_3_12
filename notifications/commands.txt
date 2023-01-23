@@ -1,0 +1,26 @@
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001816319755", "text": "This is a test from qa.guru", "disable_notification": true}' https://api.telegram.org/bot5942309005:AAGvk-onhTWBzgxu4mEfWb5mS8hVmT3Q-JQ/sendMessage
+
+curl -X POST \
+     -H 'Content-Type: application/json' \
+     -d '{"chat_id": "-1001816518167", "text": "Hi, papys'ka", "disable_notification": true}' \
+     https://api.telegram.org/bot5910046276:AAGhTtnB04orq0ZnGVEq4GKo2pKI5BkbMH0/sendMessage
+
+
+telegram token 5910046276:AAGhTtnB04orq0ZnGVEq4GKo2pKI5BkbMH0
+
+
+
+chat id -1001816518167
+
+
+curl https://api.telegram.org/bot5910046276:AAGhTtnB04orq0ZnGVEq4GKo2pKI5BkbMH0/getUpdates | jq .message.chat.id
+
+
+https://api.telegram.org/bot5910046276:AAGhTtnB04orq0ZnGVEq4GKo2pKI5BkbMH0/getUpdates
+
+
+https://api.telegram.org/bot5910046276:AAGhTtnB04orq0ZnGVEq4GKo2pKI5BkbMH0/deleteWebhook
+
+
+для запуска:
+java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifications-4.2.1.jar
